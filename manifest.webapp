@@ -1,0 +1,19 @@
+{
+	"name" : "Stephen Hawking",
+	"description" : "This app is a documentary app which reveals you about The Stephen Hawking , the man with the silver thoughts.Ever wondered about one of the greatest scientist who is on the frontier of the expenditure that we started long ago in our human history 'to achive knowledge', Man behind the book named 'The brief History of Time' come lets follow his extraordinary life. The one guy who broadened the imagination of millions of the people on the face of the earth. ",
+	"launch_path": "/stephen.html",
+	"icons" : {
+		"128": "/icon.png"
+	},
+	"developer": {
+		"name":"Twinkle",
+		"url": "https://plus.google.com/u/0/112546099252846134640/"
+	},
+	"default_locale": "en",
+	"permissions": {
+		"geolocation": {
+			"description": "It is an app on Stephen Hawking."
+		}
+	}
+}
+ 
