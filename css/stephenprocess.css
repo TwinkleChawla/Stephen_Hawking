@@ -1,0 +1,139 @@
+body{
+	background-image: url(../imgs/images1.jpg);
+	padding-top: 7%;
+}
+
+#about{
+	background-color: #FFFFE6;
+	margin-right: 6%;
+	margin-left: 6%;
+	font-size: 115%
+}
+
+.list{
+	padding-top: 1.2%;
+	padding-bottom: 1.2%;
+}
+
+#disease{
+	background-color: #FFFFE6;
+	margin-right: 6%;
+	margin-left: 6%;
+	padding-top: 1.75%;
+	padding-left: 0.75%;
+	padding-bottom: 15%;
+	padding-right: 0.5%
+}
+ #disease > h3{
+ 	text-align: center;
+ 	color:#455A71 ;
+ }
+
+  #disease > h4{
+ 	color:#51565C;	 
+	display: inline; 
+ 	float: right;
+ }
+
+ #disease > p{
+ 	font-size: 115%
+}
+
+#computer{
+	background-color: #FFFFE6;
+	margin-right: 6%;
+	margin-left: 6%;
+	padding-top: 1.75%;
+	padding-left: 0.75%;
+	padding-bottom: 1%;
+	padding-right: 0.5%;
+	color: #51565C;
+}
+
+#computer > p{
+	text-align:center;
+	color:#195087;
+}
+
+#computer{
+	color:#51565C;
+}
+
+#stepimg{
+	margin-left: 35%;
+	width: 30%;
+	max-width: 100%;
+	height: 40%;
+}
+
+@media (max-width: 991px) {
+  #stepimg {
+    width: 35%;
+    height: 35%;
+    margin-left: 35%;
+  }
+  #disimg {
+    width: 35%;
+    height: 35%;
+    margin-left: 35%;
+  }
+  body {
+    padding-top: 15%;
+  }
+  #flow > img{
+	height:600%;
+	width:90%;
+}
+}
+
+@media (max-width: 320px){
+	#stepimg {
+	    width: 45%;
+	    height: 25%;
+	    margin-left: 25%;
+  }	
+	/*.backbook {
+	background-color: white;
+	border-radius: 6px;
+	padding-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	width: 100%;
+	height: 60%;
+	} */
+
+}
+
+#achieve{
+	background-color: #FFFFE6;
+	margin-right: 6%;
+	margin-left: 6%;
+	padding-top: 1.75%;
+	padding-left: 0.75%;
+	padding-bottom: 1%;
+	padding-right: 0.5%
+}
+
+.hrline:hover{
+	background-color: #E1E8F4;
+}
+
+.right{
+	text-align: center;
+}
+
+.backbook{
+	background-color: white;
+	border-radius: 6px;
+	padding-top: 10%;
+	margin-bottom: 10%;
+	margin-left: -12%;
+	width: 100%;
+	height: 60%;
+}
+
+/*@media all and (max-width: 799px) and (min-width: 640px) {
+    #bgbook {
+        background-size: 640px 480px;
+    }
+}*/
