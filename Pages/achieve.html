@@ -5,9 +5,8 @@
 	<title>stephenHawking</title>
 	<link rel="stylesheet" type="text/css" href="../css/stephenprocess.css"> 
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<script type="text/javascript" href="../js/bootstrap.min.js"></script>
-   <script type="text/javascript" href="../js/jquery-2.1.0.min.js"></script>
-   <script type="text/javascript" href="../js/jquery-2.0.2.min.js"></script>
+   <script type="text/javascript" src="../js/jquery-2.1.0.min.js"></script>
+   <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 </head>
 <body>
 	
@@ -15,22 +14,23 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top">
   			<div class="container-fluid">
     			<div class="navbar-header">
-    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNav">
-				     	<span class="icon-bar"></span>
+    				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				     	<span class="sr-only">Toogle navigation</span>
+                  <span class="icon-bar"></span>
 				      <span class="icon-bar"></span>
 				      <span class="icon-bar"></span>
 				   </button>
-      			<a class="navbar-brand" href="brand.html">The Stephen Hawking</a>
+      			<a class="navbar-brand" href="../index.html">The Stephen Hawking</a>
     			</div>
     			
-    			<div class="collapse navbar-collapse" id="myNav"> 
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
    				<ul class="nav navbar-nav">
         				<li><a href="../index.html">About</a></li>
         				<li><a href="education.html">Education</a></li>
         				<li><a href="disease.html">Disease</a></li>
         				<li><a href="computer.html">His Computer</a></li>
         				<li><a href="books.html">Books</a></li>
-        				<li class="active"><a href="achieve.html">Achievements</a></li>
+        				<li class="active"><a href="achieve.html">Achievements<span class="sr-only">(current)</span></a></li>
    				</ul>
    			</div>
  			</div>
@@ -42,26 +42,100 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Adams Prize</h4>
-                     <p>1966</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Adams Prize</h4>
+                        <p>1966</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal1">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Adams Prize</h4>
+                                 </div>
+                                 <div class="modal-body">The Adams Prize is one of the most prestigious prizes awarded by the University of Cambridge.The Adams Prize is awarded each year by the Faculty of Mathematics at the University of Cambridge and St John's College to a UK based mathematician for distinguished research in the Mathematical Sciences.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <hr>
                      </div>
-                     <hr>
                   </div>
                </div>
                <div class="col-md-6">
                   <div class="hrline">  
                      <hr>
                      <div class="right">
-                     <h4>Eddington Meda</h4>
-                     <p>1975</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                           <h4>Eddington Medal</h4>
+                           <p>1975</p>
+                           <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal2">
+                           View
+                           </button>
+                           <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                              <div class="modal-dialog" role="document">
+                                 <div class="modal-content">
+                                    <div class="modal-header">
+                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                       <h4 class="modal-title" id="myModalLabel">Eddington Medal</h4>
+                                    </div>
+                                    <div class="modal-body">The Eddington Medal, named after Sir Arthur Eddington, is awarded by the Royal Astronomical Society nominally once every two years for investigations of outstanding merit in theoretical astrophysics.
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <hr>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">   
+                  <div class="hrline">
+                     <hr>
+                     <div class="right">
+                        <h4> Hughes Medal</h4>
+                        <p>1976</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal3">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Hughes Medal</h4>
+                                 </div>
+                                 <div class="modal-body">The Hughes Medal is awarded by the Royal Society of London "in recognition of an original discovery in the physical sciences, particularly electricity and magnetism or their applications". Named after David E. Hughes, the medal is awarded with a gift of £1000.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+               <div class="col-md-6">   
+                  <div class="hrline">
+                     <hr>
+                     <div class="right">
+                        <h4> Dannie Heineman Prize for Mathematical Physics</h4>
+                        <p>1976</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal4">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Dannie Heineman Prize for Mathematical Physics</h4>
+                                 </div>
+                                 <div class="modal-body">Dannie Heineman Prize for Mathematical Physics is an award given each year since 1959 jointly by the American Physical Society and American Institute of Physics. It is established by the Heineman Foundation in honour of Dannie Heineman.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -72,12 +146,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4> Hughes Meda</h4>
-                     <p>1976</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Albert Einstein Award</h4>
+                        <p>1978</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal5">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Albert Einstein Award</h4>
+                                 </div>
+                                 <div class="modal-body">The Albert Einstein Award was an award in theoretical physics that was established to recognize high achievement in the natural sciences. It was endowed by the Lewis and Rosa Strauss Memorial Fund in honor of Albert Einstein's 70th birthday.   
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -86,42 +171,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4> Dannie Heineman Prize for Mathematical Physics</h4>
-                     <p>1976</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
-                     </div>
-                     <hr>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">   
-                  <div class="hrline">
-                     <hr>
-                     <div class="right">
-                     <h4>Albert Einstein Award</h4>
-                     <p>1978</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
-                     </div>
-                     <hr>
-                  </div>
-               </div>
-               <div class="col-md-6">   
-                  <div class="hrline">
-                     <hr>
-                     <div class="right">
-                     <h4>Albert Einstein Medal </h4>
-                     <p>1979  </p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Albert Einstein Medal </h4>
+                        <p>1979  </p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal6">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Albert Einstein Medal</h4>
+                                 </div>
+                                 <div class="modal-body">The Albert Einstein Medal is an award presented by the Albert Einstein Society in Bern. First given in 1979, the award is presented to people for "scientific findings, works, or publications related to Albert Einstein" each year.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -132,12 +198,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Gold Medal of the Royal Astronomical Society </h4>
-                     <p>1985</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Gold Medal of the Royal Astronomical Society </h4>
+                        <p>1985</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal7">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Gold Medal of the Royal Astronomical Society</h4>
+                                 </div>
+                                 <div class="modal-body">The Gold Medal of the Royal Astronomical Society is the highest award given by the RAS. The RAS Council have "complete freedom as to the grounds on which it is awarded" and as such it can be awarded for any reason.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -146,42 +223,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>The Dirac medal - Institute of Physics</h4>
-                     <p>1987</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
-                     </div>
-                     <hr>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">   
-                  <div class="hrline">
-                     <hr>
-                     <div class="right">
-                     <h4>Wolf Prize in Physics</h4>
-                     <p>1988</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
-                     </div>
-                     <hr>
-                  </div>
-               </div>
-               <div class="col-md-6">   
-                  <div class="hrline">
-                     <hr>
-                     <div class="right">
-                     <h4>Prince of Asturias Award for Concord</h4>
-                     <p>1989</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>The Dirac medal - Institute of Physics</h4>
+                        <p>1987</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal8">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">The Dirac medal - Institute of Physics</h4>
+                                 </div>
+                                 <div class="modal-body">Council, recognising that the Institute did not have an open award specifically for theoretical physics, decided in 1985 to introduce a new medal and prize to be named after P A M Dirac an Honorary Fellow, who had died the previous year.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -192,12 +250,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Copley Medal</h4>
-                     <p>2006</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Wolf Prize in Physics</h4>
+                        <p>1988</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal9">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Wolf Prize in Physics</h4>
+                                 </div>
+                                 <div class="modal-body">The Wolf Prize in Physics is awarded once a year by the Wolf Foundation in Israel. It is one of the six Wolf Prizes established by the Foundation and awarded since 1978; the others are in Agriculture, Chemistry, Mathematics, Medicine and Arts.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -206,12 +275,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Fonseca Prize</h4>
-                     <p>2008</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Prince of Asturias Award for Concord</h4>
+                        <p>1989</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal10">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Prince of Asturias Award for Concord</h4>
+                                 </div>
+                                 <div class="modal-body">Prince of Asturias Awards are a series of annual prizes awarded in Spain by the Princess of Asturias Foundation (previously the Prince of Asturias Foundation) to individuals, entities or organizations from around the world who make notable achievements in the sciences, humanities, and public affairs.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -222,12 +302,23 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Presidential Medal of Freedom</h4>
-                     <p>2009</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Copley Medal</h4>
+                        <p>2006</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal11">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Copley Medal</h4>
+                                 </div>
+                                 <div class="modal-body">The Copley Medal is a scientific award given by the Royal Society, London, for "outstanding achievements in research in any branch of science." It alternates between the physical and the biological sciences.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>
@@ -236,12 +327,76 @@
                   <div class="hrline">
                      <hr>
                      <div class="right">
-                     <h4>Breakthrough Prize</h4>
-                     <p>2013</p>
-                     <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="
-                     abc">
-                     View
-                     </button>
+                        <h4>Fonseca Prize</h4>
+                        <p>2008</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal12">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Fonseca Prize</h4>
+                                 </div>
+                                 <div class="modal-body">The Fonseca Prize of science communication is an annual award created by the University of Santiago de Compostela and the Consortium of Santiago under the auspices of the Program ConCiencia.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-6">   
+                  <div class="hrline">
+                     <hr>
+                     <div class="right">
+                        <h4>Presidential Medal of Freedom</h4>
+                        <p>2009</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal13">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Presidential Medal of Freedom</h4>
+                                 </div>
+                                 <div class="modal-body">The Presidential Medal of Freedom is an award bestowed by the President of the United States and is—along with the comparable Congressional Gold Medal, bestowed by an act of U.S. Congress—the highest civilian award of the United States.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr>
+                  </div>
+               </div>
+               <div class="col-md-6">   
+                  <div class="hrline">
+                     <hr>
+                     <div class="right">
+                        <h4>Breakthrough Prize in Fundamental Physics</h4>
+                        <p>2013</p>
+                        <button type="button" class="btn btn-primary" data-container="body" data-toggle="modal" data-target="#myModal14">
+                        View
+                        </button>
+                        <div class="modal fade" id="myModal14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                           <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                 <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Breakthrough Prize in Fundamental Physics</h4>
+                                 </div>
+                                 <div class="modal-body">This century is likely to produce more surprises. From the Planck length to the cosmic scale, physicists are opening windows into the deep structure of reality.<br><br>
+                                 The Breakthrough Prize in Fundamental Physics was founded in 2012 by Yuri Milner to recognize those individuals who have made profound contributions to human knowledge. It is open to all physicists — theoretical, mathematical, experimental — working on the deepest mysteries of the Universe.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                      <hr>
                   </div>

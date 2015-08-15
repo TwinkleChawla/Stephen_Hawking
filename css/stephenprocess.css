@@ -68,14 +68,14 @@ body{
 
 @media (max-width: 991px) {
   #stepimg {
-    width: 35%;
-    height: 35%;
-    margin-left: 35%;
+    width: 55%;
+    height: 65%;
+    margin-left: 23%;
   }
   #disimg {
-    width: 35%;
-    height: 35%;
-    margin-left: 35%;
+    width: 55%;
+    height: 60%;
+    margin-left: 28%;
   }
   body {
     padding-top: 15%;
@@ -86,22 +86,17 @@ body{
 }
 }
 
-@media (max-width: 320px){
-	#stepimg {
-	    width: 45%;
-	    height: 25%;
+@media (max-width: 420px){
+	#disimg {
+	    width: 65%;
+	    height: 40%;
 	    margin-left: 25%;
-  }	
-	/*.backbook {
-	background-color: white;
-	border-radius: 6px;
-	padding-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 10%;
-	width: 100%;
-	height: 60%;
-	} */
-
+  }
+  	#stepimg {
+    	width: 65%;
+    	height: 40%;
+    	margin-left: 18%;	
+    }
 }
 
 #achieve{
@@ -114,7 +109,7 @@ body{
 	padding-right: 0.5%
 }
 
-.hrline:hover{
+.hrline:hover , .hrline:focus{
 	background-color: #E1E8F4;
 }
 
@@ -129,11 +124,38 @@ body{
 	margin-bottom: 10%;
 	margin-left: -12%;
 	width: 100%;
-	height: 60%;
+	padding-bottom: 10px;
 }
 
-/*@media all and (max-width: 799px) and (min-width: 640px) {
-    #bgbook {
-        background-size: 640px 480px;
-    }
-}*/
+.box h2{
+	text-align:center;
+	position:relative;
+}
+
+.box h5{
+	text-align:center;
+	position:relative;
+}
+
+.box {
+	margin:40px auto;
+}
+
+.effect
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.pros{
+	background-color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 7px;
+}
+
+.edutext{
+	text-align: center;
+	padding: 3%;
